@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://use.fontawesome.com/55f6c6c872.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<title>Мороженое</title>
+</head>
+<script>
+	$(window).on('scroll',function(e){
+    parallaxScroll();
+});
+function parallaxScroll(){
+    var scrolled = $(window).scrollTop();
+    $('.bg_sobytia_img').css('top',(300-(scrolled* .3))+'px');
+}
+
+
+</script>
+<body>
+<div class="menu_block">
+	<menu>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">глвная <hr></a></li>
+				<li><a href="ice_scream.html">мороженое <hr></a></li>
+				<li><a href="sobytia.html">события <hr></a></li>
+				<li><a href="about.html"> о нас <hr></a></li>
+			</ul>
+		</div>
+		<div class="icons">
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+		</div>
+	</menu>
+</div>
+<div class="sobytia_fixed_bg">
+	<div class="bg_sobytia_img"></div>
+</div>
+<header>
+	Ул. Арбат, 1а, Москва, Россия  |  Ежедневно с 10:00 до 22:00  
+</header>
+<div class="all_block_head_top sobytia">
+	<p>Джелато</p>
+	<h2>ОТМЕЧАЙТЕ С НАМИ</h2>
+	<h1>СОБЫТИЯ</h1>
+</div>
+
+<div class="sobytia_text">
+<div class="sobytia_tex_main">
+	<div class="head_sobytia_text">
+		<h1>ЛУЧШЕЕ МОРОЖЕНОЕ</h1>
+		<p>Для лучшей вечеринки!</p>
+	</div>
+	<p>Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Вы можете переместить его в любое место на странице. Расскажите посетителям сайта о себе. Здесь будет удачно смотреться текст о вашей компании и услугах.</p>
+	<p>Используйте эту возможность, чтобы выгодно представить себя и свою компанию клиентам. Расскажите интересную историю, например, как вам в голову пришла идея собственного дела, и объясните, в чем заключается ваше преимущество перед конкурентами.</p>
+</div></div>
+<div class="sobytia_bg_block"></div>
+<footer>
+	<div class="footer">
+		<div class="left_footer_block">
+			<div class="blocks_letf_footer">
+				<div>
+					<h1>АДРЕС</h1>
+					<p>ул. Арбат, 1а,</p>
+					<p>Москва, 119019,Россия</p>
+				</div>
+				<div>
+					<h1>КОНТАКТЫ</h1>
+					<p>info@mysite.ru</p>
+					<p>	Тел. +7 (495) 000-00-00</p>
+
+				</div>
+				<div>
+					<h1>ЧАСЫ РАБОТЫ</h1>
+					<p>ЕЖЕДНЕВНО</p><p>10:00–22:00</p>
+				</div>
+			</div>
+			<b>©2023 «Джелато»</b>
+		</div>
+		<div class="right_footer_block">
+			<h1>ПОДПИШИТЕСЬ НА НОВОСТИ</h1>
+			<form action="#">
+				<p><input type="email" placeholder="Укажите ваш e-mail"></p>
+				<p><input type="submit" value="Подписаться"></p>
+			</form>
+			<div class="icons">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

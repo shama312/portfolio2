@@ -1,0 +1,88 @@
+@media screen and (max-device-width: 1020px) {
+  menu .menu ul li a {
+    font-size: 16px; }
+  footer .footer .left_footer_block .blocks_letf_footer {
+    width: 450px; }
+    footer .footer .left_footer_block .blocks_letf_footer h1 {
+      font-size: 16px; }
+    footer .footer .left_footer_block .blocks_letf_footer p {
+      font-size: 10px; }
+  footer .footer .right_footer_block h1 {
+    font-size: 16px; }
+  footer .footer .right_footer_block .icons a i {
+    padding: 10px; }
+  footer .footer .right_footer_block .icons a:hover i {
+    color: #F9DB79; } }
+
+@media screen and (max-device-width: 980px) {
+  menu .menu ul li a {
+    font-size: 14px; }
+  .all_block_head_top {
+    height: 300px; }
+    .all_block_head_top p {
+      padding: 35px 0 30px 0; }
+    .all_block_head_top h1 {
+      color: #fff;
+      font-size: 70px; }
+    .all_block_head_top h2 {
+      font-size: 14px; }
+  .blokc_img_text {
+    display: block;
+    position: relative; }
+    .blokc_img_text .img {
+      width: 100%;
+      height: 400px; }
+    .blokc_img_text .text {
+      background-color: #fff;
+      position: relative;
+      top: 50px;
+      width: 100%;
+      height: 400px;
+      margin: 0 auto;
+      text-align: center; }
+      .blokc_img_text .text p {
+        width: 70%;
+        margin: 0 auto;
+        font: normal normal bold 16px/1.4em 'open sans condensed',sans-serif; }
+      .blokc_img_text .text .a_menu {
+        border: 2px solid #212121;
+        position: relative;
+        top: 50px;
+        color: #000; }
+        .blokc_img_text .text .a_menu:hover {
+          color: #fff; }
+      .blokc_img_text .text .top_text {
+        padding-bottom: 50px; }
+        .blokc_img_text .text .top_text p {
+          font: normal normal normal 24px/1.4em 'marck script',cursive; }
+        .blokc_img_text .text .top_text h1 {
+          font: normal normal bold 38px/1.4em 'open sans condensed',sans-serif; }
+  .about {
+    background-color: #C3A9D4; }
+    .about .about_text {
+      width: 100%;
+      background-color: #FFF;
+      padding: 80px 0; }
+      .about .about_text .about_text_main {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center; }
+        .about .about_text .about_text_main p {
+          font-weight: 700;
+          line-height: 30px;
+          padding: 30px 0; }
+        .about .about_text .about_text_main .head_about_text h1 {
+          font-size: 16px;
+          font: normal normal bold 38px/1.4em 'open sans condensed',sans-serif; }
+        .about .about_text .about_text_main .head_about_text p {
+          font-size: 14px;
+          font: normal normal normal 24px/1.4em 'marck script',cursive;
+          font-weight: 100;
+          line-height: 0px;
+          color: #2F2E2E; }
+  .sobytia_text .sobytia_tex_main {
+    width: 70%; }
+    .sobytia_text .sobytia_tex_main .head_sobytia_text h1 {
+      font-size: 16px; }
+    .sobytia_text .sobytia_tex_main .head_sobytia_text p {
+      font-size: 14px; } }

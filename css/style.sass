@@ -1,0 +1,467 @@
+//стандартные стили
+*
+	margin: 0
+	padding: 0
+body
+	    font-family: open sans condensed,sans-serif
+	
+menu
+	top: 100px
+	z-index: 99999
+	width: 100%
+	text-alifn: center
+	position: fixed
+	display: flex
+	justify-content: space-between
+	.icons
+		i
+			color: #fff
+			background-color: #000
+			padding: 10px
+			border-radius: 50%
+			transition-duration: .5s
+			border: 1px solid #fff
+		a:hover
+			i
+				color: #F9DB79
+	.menu
+		ul
+			display: flex
+			span
+				display: none
+			li
+				list-style: none
+				margin: 0 10px
+				a
+					font-size: 18px
+					text-transform: uppercase
+					text-decoration: none
+					font-weight: 700
+					color: #212121
+					transition-duration: .5s
+					hr
+						transition-duration: .5s
+						border: 2px solid #fff
+						width: 0
+						opacity: 0
+				&:hover
+					hr
+						opacity: 1
+						width: 100%
+						border: 2px solid #fff
+
+header
+	width: 100%
+	height: 55px
+	background-color: #212121
+	color: #fff
+	text-align: center
+	line-height: 55px
+	font-weight: 700
+	font-size: 14px
+	letter-spacing: 2px
+
+footer
+	width: 100%
+	background-color: #000
+	padding: 100px 0
+	.footer
+		width: 90%
+		margin: 0 auto
+		color: #fff
+		display: flex
+		justify-content: space-between
+		.left_footer_block
+			width: 600px
+			.blocks_letf_footer
+				width: 700px
+				display: flex
+				justify-content: space-between
+				padding-bottom: 70px
+				h1
+					padding-bottom: 30px
+					font-size: 22px
+				p
+					letter-spacing: 2px
+					font-weight: 700
+					font-size: 14px
+					line-height: 22px
+		.right_footer_block
+			h1
+				font-size: 22px
+				padding-bottom: 30px
+			form
+				input[type="email"]
+					width: 350px
+					height: 40px
+					font-size: 14px
+					color: #3E371E
+					padding-left: 10px
+					font-weight: 700
+					&:focus
+						outline: none
+				input::placeholder
+					font-size: 14px
+					color: #3E371E
+					padding-left: 0px
+					font-weight: 700
+				input[type="submit"]
+					transition-duration: .5s
+					margin-top: 10px
+					cursor: pointer
+					width: 363px
+					height: 50px
+					text-align: center
+					font-size: 17px
+					color: #fff
+					border: 2px solid #fff
+					background-color: #000	
+					font-weight: 700
+					&:hover
+						background-color: #fff
+						color: #000			
+						font-weight: 700
+			.icons
+				a
+					i
+						background-color: #fff
+						padding: 20px
+						color: #000
+						border-radius: 50%
+						margin: 15px
+						transition-duration: .5s
+					&:hover
+						i
+							color: #F9DB79
+
+
+
+
+.all_block_head_top
+	width: 100%
+	height: 500px
+	text-align: center
+	p
+		padding: 35px 0 150px 0
+		color: #fff
+		font-size: 30px
+		font-weight: 700
+		text-align: center
+		font-family: marck script,cursive
+	    font: normal normal normal 40px/1.4em 'marck script',cursiv
+	h1
+		color: #fff
+		font-size: 120px
+		font-weight: 700
+		letter-spacing: 20px
+	h2
+		color: #fff
+		font-size: 40px
+		letter-spacing: 5px
+
+//style index(home)
+.text_index_blocks
+	width: 70%
+	margin: 0 auto
+	text-align: center
+	text-transform: uppercase
+	color: #fff
+	line-height: 100px
+	position: relative
+	h2
+		font-size: 40px
+		letter-spacing: 5px
+	h1
+		font-size: 70px
+		letter-spacing: 30px
+.a_menu
+	color: #fff
+	font-size: 22px
+	text-decoration: none
+	border: 2px solid #fff
+	padding: 10px 50px
+	font-weight: 700
+	transition-duration: .5s
+	text-transform: uppercase
+	&:hover
+		background-color: #212121
+		border: 2px solid #212121
+.blokc_img_text
+	display: flex
+	position: relative
+	.img
+		background-color: #212121
+		width: 60%
+		height: 600px
+		background-image: url(../img/ice.png)
+		background-size: cover 
+		background-position: right
+	.text
+		position: relative
+		top: 130px
+		width: 25%
+		margin: 0 auto
+		text-align: center
+		p
+		    font: normal normal bold 16px/1.4em 'open sans condensed',sans-serif
+		.a_menu
+			border: 2px solid #212121
+			position: relative
+			top: 50px
+			color: #000
+			&:hover
+				color: #fff
+		.top_text
+			padding-bottom: 50px
+			p
+				font: normal normal normal 24px/1.4em 'marck script',cursive
+			h1
+				    font: normal normal bold 38px/1.4em 'open sans condensed',sans-serif
+
+.bg_fixed_menu
+	position: absolute
+	width: 100%
+	z-index: -9
+	.bg_fixed_menu_main
+		width: 100%
+		position: fixed
+		top: 700px
+	.block_1
+		width: 100%
+		height: 1000px
+		background-color: #eee
+		position: absolute
+		background-image: url(../img/fix_img.png)
+		background-repeat: no-repeat
+		background-color: #B5E8D5
+		background-position: center center
+	.block_2
+		width: 100%
+		height: 1000px
+		background-color: #FFBFB3
+		position: absolute
+		background-image: url(../img/fix_img_2.png)
+		background-position: center center
+		background-repeat: no-repeat
+	.block_3
+		width: 100%
+		height: 1000px
+		position: absolute
+		background-color: #EBB7CB
+		background-image: url(../img/1.jpeg)
+		background-repeat: no-repeat
+		background-position: bottom
+		background-size: cover
+
+.ices_home_top_block
+	h1
+		color: #fff
+		padding-top: 25px
+		text-align: center
+		font-family: marck script,cursive
+	    font: normal normal normal 40px/1.4em 'marck script',cursive
+	width: 100%
+	height: 700px
+	background-image: url(../img/head_ice.png)
+	background-repeat: no-repeat
+	background-position:  center center
+	background-color: #F9DB79
+	.text_index_blocks
+		top: 200px
+.text_index_blocks_1
+	height: 530px
+	padding-top: 150px
+.text_index_blocks_2
+	height: 530px
+	padding-top: 150px
+.block_img_text_1
+	background-color: #fff
+.block_img_text_2
+	background-color: #fff
+	.img
+		background-image: url(../img/welcom.png)
+		background-repeat: mo-repeat
+.block_img_text_3
+	background-color: #fff
+	.img
+		background-image: url(../img/disert.png)
+		background-repeat: mo-repeat
+
+.teg_web
+	position: relative
+	width: 100%
+	height: 900px
+	background-image: url(../img/fix_img_3.png)
+	background-repeat: mo-repeat
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: bottom center
+	.bottom_block
+		position: absolute
+		bottom: 0px
+		width: 100%
+		text-align: center
+		line-height: 200px
+		height: 150px
+		background-color: #fff
+		z-index: -1
+		h1
+			font-size: 32px
+
+.slider
+	position: relative
+	width: 100%
+	height: 400px
+	overflow: hidden
+	background-color:	gray
+	.buttons_slider
+		position: absolute
+		z-index: 1
+		width: 100%
+		height: 400px
+		display: flex
+		justify-content: space-between
+		.center_button
+			width: 30%
+		.left_button
+			cursor: pointer
+			width: 25%
+			transition-duration: .5s
+			&:hover
+				background-color: #000
+				opacity: .7
+		.right_button
+			cursor: pointer
+			width:  25%
+			transition-duration: .5s
+			&:hover
+				background-color: #000
+				opacity: .7
+	.slider_main
+		position: absolute
+		z-index: 0
+		display: flex
+		left: -30245px
+		transition-duration: .5s
+		img
+			width: 400px
+			height: 400px
+//style icr_screan(мороженое)
+.ice_scream
+	background-color: #B5E8D5
+.ice_scream_index
+	.slivochnoe, .not_milk
+		width: 900px
+		margin: 0 auto
+		text-align: center
+		padding: 100px 0
+		.h1
+			font-size: 22px
+			font-weight: 100
+			padding-bottom: 20px
+		.hr
+			border: 1px solid #000
+			width: 15%
+			margin: 0 auto
+
+.main_ice_scream
+	padding-top: 100px
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	div
+		padding-top: 30px
+		width: 30%
+		hr
+			width: 100%
+			border: 1px solid #000
+			margin: 15px 0
+		b
+			font-weight: 100
+			line-height: 30px
+		h1,p
+			color: rgb(93, 57, 81)
+			font-weight: 100
+			margin: 20px 0
+			font-size: 18px
+//sobytia
+
+.sobytia
+	background-color: #FFBFB3
+.sobytia_text
+	width: 100%
+	background-color: #FFF
+	padding: 80px 0
+	.sobytia_tex_main
+		width: 700px
+		margin: 0 auto
+		text-align: center
+		p
+			font-weight: 700
+			line-height: 30px
+			padding: 30px 0
+		.head_sobytia_text
+			h1
+				font: normal normal bold 38px/1.4em 'open sans condensed',sans-serif
+			p
+				font: normal normal normal 24px/1.4em 'marck script',cursive;
+				font-weight: 100
+				line-height: 0px
+				color: #2F2E2E
+.sobytia_bg_block
+	width: 100%
+	height: 700px
+.sobytia_fixed_bg
+	width: 100%
+	height: 100%
+	position: fixed
+	z-index: -111
+	.bg_sobytia_img
+		width: 100%
+		height: 1200px
+		position: absolute
+		background-image: url(../img/sobytia_bg.jpg)
+		background-size: cover
+		background-position: center bottom
+		top: 500px
+
+//about 
+
+.about
+	background-color: #C3A9D4
+.about_text
+	width: 100%
+	background-color: #FFF
+	padding: 80px 0
+	.about_text_main
+		width: 700px
+		margin: 0 auto
+		text-align: center
+		p
+			font-weight: 700
+			line-height: 30px
+			padding: 30px 0
+		.head_about_text
+			h1
+				font: normal normal bold 38px/1.4em 'open sans condensed',sans-serif
+			p
+				font: normal normal normal 24px/1.4em 'marck script',cursive;
+				font-weight: 100
+				line-height: 0px
+				color: #2F2E2E
+.about_bg_fixed
+	width: 100%
+	height: 700px
+.about_fixed_bg
+	width: 100%
+	height: 100%
+	position: fixed
+	z-index: -111
+	.bg_about_img
+		width: 100%
+		height: 1200px
+		position: absolute
+		background-image: url(../img/welcom.png)
+		background-size: 100% 100%
+		background-position: top
+		top: 500px
